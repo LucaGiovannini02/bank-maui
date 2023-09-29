@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             x:Class="FinecoBankMobile.View.LoginPage"
+             Shell.NavBarIsVisible="True"
+             Shell.BackgroundColor="Orange"
+             Shell.FlyoutBehavior="Disabled"
+             Title="Login">
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
+    </Shell.BackButtonBehavior>
+    <Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="Orange"/>
+    </Page.Behaviors>
+    <Frame BackgroundColor="White" CornerRadius="0">
+        <Frame BackgroundColor="White" HeightRequest="500" BorderColor="Orange">
+            <VerticalStackLayout
+            Spacing="10"
+            Padding="30,0"
+            VerticalOptions="Start">
+                <Image Source="it_banking_3.gif" IsAnimationPlaying="True"/>
+
+                <Label HorizontalOptions="Start" FontSize="32" TextColor="Orange" FontAttributes="Bold" FontFamily="Montserrat">Login</Label>
+
+                <Entry Placeholder="Email Address" FontSize="18" FontFamily="Montserrat"/>
+
+                <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat"/>
+
+                <Button CornerRadius="30" Text="Login" BackgroundColor="MediumPurple" Clicked="Login_Clicked" FontSize="20" FontFamily="Montserrat"/>
+
+                <Label HorizontalOptions="Center" TextColor="Blue" TextDecorations="Underline" FontFamily="Montserrat">
+                    Forgot your password? Click Here!
+                </Label>
+
+                <Button CornerRadius="30" Text="Sign Up" BackgroundColor="MediumPurple" Clicked="Registration_Clicked" FontSize="20" FontFamily="Montserrat"/>
+            </VerticalStackLayout>
+        </Frame>
+    </Frame>
+</ContentPage>

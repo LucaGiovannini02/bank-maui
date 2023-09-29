@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinecoBankMobile.View.OperationsPage"
+             Shell.FlyoutBehavior="Disabled"
+             Title="Operations"
+             Shell.BackgroundColor="Orange">
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
+    </Shell.BackButtonBehavior>
+    <VerticalStackLayout VerticalOptions="Start">
+        <Frame BackgroundColor="MediumPurple" WidthRequest="380" Padding="10" Margin="10" Opacity="0.8" CornerRadius="30">
+            <Label HorizontalOptions="Center" FontSize="25" FontAttributes="Bold" FontFamily="Montserrat">All operations</Label>
+        </Frame>
+        <HorizontalStackLayout>
+            <Picker x:Name="picker"
+                    Title="Select a monkey">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Baboon</x:String>
+                        <x:String>Capuchin Monkey</x:String>
+                        <x:String>Blue Monkey</x:String>
+                        <x:String>Squirrel Monkey</x:String>
+                        <x:String>Golden Lion Tamarin</x:String>
+                        <x:String>Howler Monkey</x:String>
+                        <x:String>Japanese Macaque</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+             </Picker>
+        </HorizontalStackLayout>
+        <TableView HeightRequest="600" VerticalOptions="Start">
+            <TableSection>
+                <TextCell Text="Operation1"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation2"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation3"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation4"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation5"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation6"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation7"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation8"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation9"/>
+            </TableSection>
+            <TableSection >
+                <TextCell Text="Operation10"/>
+                
+            </TableSection>
+        </TableView>
+    </VerticalStackLayout>
+</ContentPage>

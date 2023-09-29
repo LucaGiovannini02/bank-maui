@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinecoBankMobile.View.RechargePage"
+             Shell.BackgroundColor="Orange"
+             Shell.FlyoutBehavior="Flyout"
+             Title="Recharge">
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsVisible="False" IsEnabled="False"/>
+    </Shell.BackButtonBehavior>
+    <Frame HeightRequest="450" Margin="20" CornerRadius="20" BorderColor="Orange">
+        <VerticalStackLayout VerticalOptions="Start" Spacing="10">
+        
+        <Frame BackgroundColor="MediumPurple"
+               WidthRequest="250"
+               Padding="10"
+               Margin="10"
+               Opacity="0.8"
+               CornerRadius="20">
+            <Label HorizontalOptions="Center"
+                   FontSize="25"
+                   FontAttributes="Bold"
+                   FontFamily="Montserrat"
+                   TextColor="White">
+                SIM Recharge
+            </Label>
+        </Frame>
+        
+            <Entry Placeholder="Phone Number" FontFamily="Montserrat"/>
+
+            <Entry Placeholder="Amount (€)" FontFamily="Montserrat"/>
+
+            <Button Text="Recharge your SIM"
+                BackgroundColor="MediumPurple"
+                CornerRadius="30"
+                FontFamily="Montserrat"
+                FontSize="15"
+                WidthRequest="200"
+                Margin="10"
+                Clicked="Recharge_Clicked">
+
+                <Button.Shadow>
+                    <Shadow Brush="Black"
+                        Offset="0, 20"
+                        Radius="40"
+                        Opacity="0.4" />
+                </Button.Shadow>
+            </Button>
+    </VerticalStackLayout>
+    </Frame>
+    
+</ContentPage>

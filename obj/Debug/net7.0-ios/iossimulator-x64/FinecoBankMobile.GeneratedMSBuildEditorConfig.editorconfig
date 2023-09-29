@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinecoBankMobile
+build_property.ProjectDir = C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\HomePage.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/OperationsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.OperationsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\OperationsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\OperationsPage.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/RechargePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.RechargePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RechargePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RechargePage.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RegisterPage.xaml
+
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/TransferPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.TransferPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TransferPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TransferPage.xaml

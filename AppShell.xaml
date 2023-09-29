@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="FinecoBankMobile.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FinecoBankMobile.View"
+    Shell.FlyoutBehavior="Flyout">
+    <FlyoutItem>
+        <ShellContent FlyoutItemIsVisible="False" ContentTemplate="{DataTemplate local:LoginPage}"/>
+    </FlyoutItem>
+    <TabBar>
+        <Tab Title="HomePage">
+            <ShellContent FlyoutItemIsVisible="True" ContentTemplate="{DataTemplate local:HomePage}" Route="HomePage"/>
+        </Tab>
+        <Tab Title="Operations">
+            <ShellContent ContentTemplate="{DataTemplate local:OperationsPage}" Route="OperationsPage"/>
+        </Tab>
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:RechargePage}" Route="RechargePage"/>
+        </Tab>
+    </TabBar>
+</Shell>

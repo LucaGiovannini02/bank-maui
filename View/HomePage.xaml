@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinecoBankMobile.View.HomePage"
+             Shell.BackgroundColor="Orange"
+             Shell.FlyoutBehavior="Flyout"
+             Title="HomePage">
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
+    </Shell.BackButtonBehavior>
+    <VerticalStackLayout Margin="25" Spacing="10">
+        <Frame
+            CornerRadius="20"
+            WidthRequest="350"
+            HeightRequest="220">
+            <Frame.Background>
+                <LinearGradientBrush EndPoint="1,1">
+                    <GradientStop Color="MediumPurple"
+                                  Offset="0.0"/>
+                    <GradientStop Color="CornflowerBlue"
+                                  Offset="1.1"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+            <VerticalStackLayout Spacing="20">
+                <Label TextColor="White" FontSize="25" FontFamily="Montserrat">Luca Giovannini</Label>
+                <!-- dataBinding (con "Loaded") per nome utente -->
+                <Label TextColor="White" FontSize="30" FontFamily="Montserrat">5432,10€</Label>
+                <!-- dataBinding per balance -->
+                <Label TextColor="White" FontSize="19" FontFamily="Montserrat">AL472121100900000002356987411</Label>
+                <!-- dataBinding per IBAN -->
+                <VerticalStackLayout.Shadow>
+                    <Shadow Brush="Black"
+                            Offset="20,20"
+                            Radius="40"
+                            Opacity="0.8"/>
+                </VerticalStackLayout.Shadow>
+            </VerticalStackLayout>
+        </Frame>
+        <HorizontalStackLayout Spacing="20">
+            <Button BackgroundColor="White"
+                    WidthRequest="150"
+                    BorderColor="MediumPurple"
+                    BorderWidth="2"
+                    Text="SIM Recharge"
+                    TextColor="MediumPurple"
+                    FontFamily="Montserrat"
+                    CornerRadius="30"
+                    Clicked="SIMRechargeButton_Clicked">
+                <Button.Shadow>
+                    <Shadow Brush="Black"
+                            Offset="0, 20"
+                            Radius="40"
+                            Opacity="0.4" />
+                </Button.Shadow>
+            </Button>
+            <Button BackgroundColor="White"
+                    WidthRequest="150"
+                    BorderColor="MediumPurple"
+                    BorderWidth="2"
+                    Text="Transfer"
+                    TextColor="MediumPurple"
+                    FontFamily="Montserrat"
+                    CornerRadius="30"
+                    Clicked="TransferButton_Clicked">
+                <Button.Shadow>
+                    <Shadow Brush="Black"
+                            Offset="0, 20"
+                            Radius="40"
+                            Opacity="0.4" />
+                </Button.Shadow>
+            </Button>
+        </HorizontalStackLayout>
+        <VerticalStackLayout>  <!-- dataBinding per ultime 5 operazioni + inserire qui sotto elemento per visualizzarle -->
+            <Label FontSize="25" FontAttributes="Bold" FontFamily="Montserrat">
+                Last Operations
+            </Label>
+            <Frame BorderColor="MediumPurple" Margin="10">
+                <TableView HeightRequest="230">
+                    <TableSection>
+                        <TextCell Text="Operation1"/>
+                        <TextCell Text="Operation2"/>
+                        <TextCell Text="Operation3"/>
+                        <TextCell Text="Operation4"/>
+                        <TextCell Text="Operation5"/>
+                    </TableSection>
+                </TableView>
+            </Frame>
+            
+
+            <Button BackgroundColor="MediumPurple" CornerRadius="30" Text="View All" Clicked="ViewAllButton_Tapped" Margin="10" WidthRequest="350" FontFamily="Montserrat"/>
+
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
