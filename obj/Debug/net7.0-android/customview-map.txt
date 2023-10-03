@@ -2,6 +2,8 @@
 @string/appbar_scrolling_view_behavior;C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\lp\158\jl\res\layout\navigationlayout.xml
 adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background.xml
+adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background_round.xml
 adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo.xml
 adaptive-icon;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo_round.xml
 alpha;C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\lp\155\jl\res\anim\enterfromleft.xml
@@ -19,6 +21,8 @@ attr;C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0
 attr;C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\lp\158\jl\res\values\attr.xml
 background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background.xml
+background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background_round.xml
 background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo.xml
 background;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo_round.xml
 bitmap;obj\Debug\net7.0-android\resizetizer\sp\drawable\maui_splash_image.xml
@@ -38,6 +42,8 @@ external-cache-path;C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\o
 external-path;C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\lp\159\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background.xml
+foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background_round.xml
 foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo.xml
 foreground;obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo_round.xml
 item;C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\lp\156\jl\res\values\styles.xml

@@ -11,34 +11,51 @@ public partial class LoginPage : ContentPage
         InitializeComponent();
     }
 
+    public class UserCredentials
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+
+    static List<UserCredentials> userCredentialsList = new List<UserCredentials>
+    {
+        new UserCredentials{Email = "luca.giovannini@gmail.com", Password = "Tailwind1234" },
+        new UserCredentials{Email = "niccolo.bano@gmail.com", Password = "Quarantacinque45" },
+        new UserCredentials{Email = "filiberto.toniolo@gmail.com", Password = "Sinistro5678" }
+    };
+
+    public bool CheckCredentials(string givenEmail, string givenPassword)
+    {
+        foreach (var userCredentials in userCredentialsList)
+        {
+            if (userCredentials.Email.Equals(givenEmail) && userCredentials.Password.Equals(givenPassword))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     private async void Login_Clicked(object sender, EventArgs e)
     {
-        string email = EmailEntry.Text;
-        string password = PasswordEntry.Text;
+        string givenEmail = EmailEntry.Text;
+        string givenPassword = PasswordEntry.Text;
 
-        if (Authenticate(email, password))
-        {
-            await DisplayAlert("SUCCESS!", "Successfully logged in!", "OK");
-            EmailEntry.Text = "";
-            PasswordEntry.Text = "";
-            await Shell.Current.GoToAsync($"{nameof(HomePage)}");
-        }
-        else
-        {
-            await DisplayAlert("LOGIN FAILED", "Login failed. Check your credentials and try again", "OK");
-            EmailEntry.Text = "";
-            PasswordEntry.Text = "";
-        };
-    }
-    static bool Authenticate(string email, string password)
-    {
-        if (email == "luca.giovannini@gmail.com"  && password == "Tailwind1234")
-        {
-            return true;
-        } else
-        {
-            return false;
-        }
+        bool isMatch = CheckCredentials(givenEmail, givenPassword);
+
+            if (isMatch)
+            {
+                await DisplayAlert("SUCCESS", "Successfully logged in", "OK");
+                EmailEntry.Text = "";
+                PasswordEntry.Text = "";
+                await Shell.Current.GoToAsync($"{nameof(HomePage)}");
+            }
+            else
+            {
+                await DisplayAlert("FAILED", "Failed Login Attempt. Check your credentials and try again", "OK");
+                EmailEntry.Text = "";
+                PasswordEntry.Text = "";
+            }
     }
     private async void Registration_Clicked(object sender, EventArgs e)
     {
