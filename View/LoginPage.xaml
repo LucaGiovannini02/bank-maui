@@ -23,9 +23,9 @@
 
                 <Label HorizontalOptions="Start" FontSize="32" TextColor="Orange" FontAttributes="Bold" FontFamily="Montserrat">Login</Label>
 
-                <Entry Placeholder="Email Address" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Placeholder="Email Address" FontSize="18" FontFamily="Montserrat" x:Name="EmailEntry"/>
 
-                <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat" x:Name="PasswordEntry" IsPassword="True"/>
 
                 <Button CornerRadius="30" Text="Login" BackgroundColor="MediumPurple" Clicked="Login_Clicked" FontSize="20" FontFamily="Montserrat">
                     <Button.Shadow>
