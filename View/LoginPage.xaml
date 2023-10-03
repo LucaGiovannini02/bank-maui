@@ -27,13 +27,27 @@
 
                 <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat"/>
 
-                <Button CornerRadius="30" Text="Login" BackgroundColor="MediumPurple" Clicked="Login_Clicked" FontSize="20" FontFamily="Montserrat"/>
+                <Button CornerRadius="30" Text="Login" BackgroundColor="MediumPurple" Clicked="Login_Clicked" FontSize="20" FontFamily="Montserrat">
+                    <Button.Shadow>
+                        <Shadow Brush="Black"
+                                Offset="0,20"
+                                Radius="40"
+                                Opacity="0.4"/>
+                    </Button.Shadow>
+                </Button>
+
+                <Button CornerRadius="30" Text="Sign Up" BackgroundColor="MediumPurple" Clicked="Registration_Clicked" FontSize="20" FontFamily="Montserrat">
+                    <Button.Shadow>
+                        <Shadow Brush="Black"
+                            Offset="0,20"
+                            Radius="40"
+                            Opacity="0.4"/>
+                    </Button.Shadow>
+                </Button>
 
                 <Label HorizontalOptions="Center" TextColor="Blue" TextDecorations="Underline" FontFamily="Montserrat">
                     Forgot your password? Click Here!
                 </Label>
-
-                <Button CornerRadius="30" Text="Sign Up" BackgroundColor="MediumPurple" Clicked="Registration_Clicked" FontSize="20" FontFamily="Montserrat"/>
             </VerticalStackLayout>
         </Frame>
     </Frame>

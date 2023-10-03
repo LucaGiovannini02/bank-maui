@@ -12,11 +12,10 @@
         <VerticalStackLayout VerticalOptions="Start" Spacing="10">
         
         <Frame BackgroundColor="MediumPurple"
-               WidthRequest="250"
+               WidthRequest="310"
                Padding="10"
                Margin="10"
-               Opacity="0.8"
-               CornerRadius="20">
+               Opacity="0.8">
             <Label HorizontalOptions="Center"
                    FontSize="25"
                    FontAttributes="Bold"

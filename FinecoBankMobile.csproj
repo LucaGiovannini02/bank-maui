@@ -32,10 +32,10 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Platforms\Android\Resources\drawable-hdpi\logo.png" ForegroundFile="Platforms\Android\Resources\drawable-hdpi\logo.png" Color="#FFA500" />
-
+		<MauiIcon Include="Resources\AppIcon\logo.png"/>
+		
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\logo.svg" Color="#FFA500" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\logo.svg" Color="#FFA500" BaseSize="256,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -49,6 +49,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Platforms\Android\Resources\drawable-hdpi\**" />
+	  <Compile Remove="Platforms\Android\Resources\drawable-hdpi\**" />
+	  <EmbeddedResource Remove="Platforms\Android\Resources\drawable-hdpi\**" />
+	  <MauiCss Remove="Platforms\Android\Resources\drawable-hdpi\**" />
+	  <MauiXaml Remove="Platforms\Android\Resources\drawable-hdpi\**" />
+	  <None Remove="Platforms\Android\Resources\drawable-hdpi\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Remove="LoginPage.xaml.cs" />
 	  <Compile Remove="RegisterPage.xaml.cs" />
 	</ItemGroup>
@@ -59,7 +68,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\AppIcon\logo.png" />
 	  <None Remove="TryOut.ts" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiIcon Include="Resources\AppIcon\logo.png" />
 	</ItemGroup>
 
 	<ItemGroup>

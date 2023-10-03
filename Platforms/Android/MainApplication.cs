@@ -3,7 +3,7 @@ using Android.Runtime;
 
 namespace FinecoBankMobile.Platforms.Android;
 
-[Application]
+[Application(Icon = "@mipmap/logo", RoundIcon = "@mipmap/logo")]
 public class MainApplication : MauiApplication
 {
     public MainApplication(nint handle, JniHandleOwnership ownership)

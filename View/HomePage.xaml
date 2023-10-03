@@ -30,9 +30,9 @@
                 <!-- dataBinding per IBAN -->
                 <VerticalStackLayout.Shadow>
                     <Shadow Brush="Black"
-                            Offset="20,20"
+                            Offset="0,20"
                             Radius="40"
-                            Opacity="0.8"/>
+                            Opacity="0.6"/>
                 </VerticalStackLayout.Shadow>
             </VerticalStackLayout>
         </Frame>
@@ -74,8 +74,9 @@
             <Label FontSize="25" FontAttributes="Bold" FontFamily="Montserrat">
                 Last Operations
             </Label>
+            
             <Frame BorderColor="MediumPurple" Margin="10">
-                <TableView HeightRequest="230">
+                <TableView HeightRequest="230" Margin="-14">
                     <TableSection>
                         <TextCell Text="Operation1"/>
                         <TextCell Text="Operation2"/>
@@ -85,7 +86,6 @@
                     </TableSection>
                 </TableView>
             </Frame>
-            
 
             <Button BackgroundColor="MediumPurple" CornerRadius="30" Text="View All" Clicked="ViewAllButton_Tapped" Margin="10" WidthRequest="350" FontFamily="Montserrat"/>
 

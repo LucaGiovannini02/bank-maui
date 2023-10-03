@@ -1004,4 +1004,3 @@ C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-andr
 C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\logo.png
 C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\logo_background.png
 C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\logo_foreground.png
-C:\Users\banon\Desktop\Scuola\App Android\FinecoBankMobile\obj\Debug\net7.0-android\res\drawable-hdpi\logo.png
