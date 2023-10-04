@@ -9,10 +9,9 @@
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
     </Shell.BackButtonBehavior>
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to Detail Page!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Frame BorderColor="#415868" CornerRadius="20">
+        <VerticalStackLayout>
+            <Label>Welcome to Detail Page!!!</Label>
+        </VerticalStackLayout>
+    </Frame>
 </ContentPage>

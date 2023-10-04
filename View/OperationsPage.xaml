@@ -31,34 +31,34 @@
         <Frame BorderColor="#415868" Margin="15" HeightRequest="500">
             <TableView HeightRequest="600" VerticalOptions="Start">
             <TableSection>
-                <TextCell Text="Operation1"/>
+                <TextCell Text="Operation1" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation2"/>
+                <TextCell Text="Operation2" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation3"/>
+                <TextCell Text="Operation3" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation4"/>
+                <TextCell Text="Operation4" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation5"/>
+                <TextCell Text="Operation5" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation6"/>
+                <TextCell Text="Operation6" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation7"/>
+                <TextCell Text="Operation7" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation8"/>
+                <TextCell Text="Operation8" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation9"/>
+                <TextCell Text="Operation9" Tapped="Operation_Tapped"/>
             </TableSection>
             <TableSection >
-                <TextCell Text="Operation10"/>
+                <TextCell Text="Operation10" Tapped="Operation_Tapped"/>
                 
             </TableSection>
         </TableView>
