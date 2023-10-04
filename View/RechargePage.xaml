@@ -2,35 +2,35 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinecoBankMobile.View.RechargePage"
-             Shell.BackgroundColor="Orange"
+             Shell.BackgroundColor="#415868"
              Shell.FlyoutBehavior="Flyout"
              Title="Recharge">
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsVisible="False" IsEnabled="False"/>
     </Shell.BackButtonBehavior>
-    <Frame HeightRequest="450" Margin="20" CornerRadius="20" BorderColor="Orange">
-        <VerticalStackLayout VerticalOptions="Start" Spacing="10">
-        
-        <Frame BackgroundColor="MediumPurple"
+    <Frame HeightRequest="450" Margin="20" CornerRadius="20" BorderColor="#415868">
+        <VerticalStackLayout VerticalOptions="Start" Spacing="10" HeightRequest="450">
+
+            <Frame BackgroundColor="CornflowerBlue"
                WidthRequest="310"
                Padding="10"
                Margin="10"
                Opacity="0.8">
-            <Label HorizontalOptions="Center"
+                <Label HorizontalOptions="Center"
                    FontSize="25"
                    FontAttributes="Bold"
                    FontFamily="Montserrat"
                    TextColor="White">
-                SIM Recharge
-            </Label>
-        </Frame>
-        
+                    SIM Recharge
+                </Label>
+            </Frame>
+
             <Entry Placeholder="Phone Number" FontFamily="Montserrat"/>
 
             <Entry Placeholder="Amount (€)" FontFamily="Montserrat"/>
 
             <Button Text="Recharge your SIM"
-                BackgroundColor="MediumPurple"
+                BackgroundColor="CornflowerBlue"
                 CornerRadius="30"
                 FontFamily="Montserrat"
                 FontSize="15"
@@ -45,7 +45,6 @@
                         Opacity="0.4" />
                 </Button.Shadow>
             </Button>
-    </VerticalStackLayout>
+        </VerticalStackLayout>
     </Frame>
-    
 </ContentPage>

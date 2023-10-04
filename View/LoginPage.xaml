@@ -4,30 +4,30 @@
              xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              x:Class="FinecoBankMobile.View.LoginPage"
              Shell.NavBarIsVisible="True"
-             Shell.BackgroundColor="Orange"
+             Shell.BackgroundColor="#415868"
              Shell.FlyoutBehavior="Disabled"
              Title="Login">
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
     </Shell.BackButtonBehavior>
     <Page.Behaviors>
-        <mct:StatusBarBehavior StatusBarColor="Orange"/>
+        <mct:StatusBarBehavior StatusBarColor="#415868"/>
     </Page.Behaviors>
     <Frame BackgroundColor="White" CornerRadius="0">
-        <Frame BackgroundColor="White" HeightRequest="500" BorderColor="Orange">
+        <Frame BackgroundColor="White" HeightRequest="500" BorderColor="CornflowerBlue">
             <VerticalStackLayout
             Spacing="10"
             Padding="30,0"
-            VerticalOptions="Start">
+            VerticalOptions="Start" HeightRequest="500">
                 <Image Source="it_banking_3.gif" IsAnimationPlaying="True"/>
 
-                <Label HorizontalOptions="Start" FontSize="32" TextColor="Orange" FontAttributes="Bold" FontFamily="Montserrat">Login</Label>
+                <Label HorizontalOptions="Start" FontSize="32" TextColor="#415868" FontAttributes="Bold" FontFamily="Montserrat">Login</Label>
 
                 <Entry Placeholder="Email Address" FontSize="18" FontFamily="Montserrat" x:Name="EmailEntry"/>
 
                 <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat" x:Name="PasswordEntry" IsPassword="True"/>
 
-                <Button CornerRadius="30" Text="Login" BackgroundColor="MediumPurple" Clicked="Login_Clicked" FontSize="20" FontFamily="Montserrat">
+                <Button CornerRadius="30" Text="Login" BackgroundColor="CornflowerBlue" Clicked="Login_Clicked" FontSize="20" FontFamily="Montserrat" TextColor="White" FontAttributes="Bold">
                     <Button.Shadow>
                         <Shadow Brush="Black"
                                 Offset="0,20"
@@ -36,7 +36,7 @@
                     </Button.Shadow>
                 </Button>
 
-                <Button CornerRadius="30" Text="Sign Up" BackgroundColor="MediumPurple" Clicked="Registration_Clicked" FontSize="20" FontFamily="Montserrat">
+                <Button CornerRadius="30" Text="Sign Up" BackgroundColor="CornflowerBlue" Clicked="Registration_Clicked" FontSize="20" FontFamily="Montserrat" TextColor="White" FontAttributes="Bold">
                     <Button.Shadow>
                         <Shadow Brush="Black"
                             Offset="0,20"
@@ -44,10 +44,6 @@
                             Opacity="0.4"/>
                     </Button.Shadow>
                 </Button>
-
-                <Label HorizontalOptions="Center" TextColor="Blue" TextDecorations="Underline" FontFamily="Montserrat">
-                    Forgot your password? Click Here!
-                </Label>
             </VerticalStackLayout>
         </Frame>
     </Frame>

@@ -38,6 +38,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.Resources
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/DetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.DetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\DetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\DetailPage.xaml
+
 [C:/Users/banon/Desktop/Scuola/App Android/FinecoBankMobile/View/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FinecoBankMobile.View.HomePage.xaml

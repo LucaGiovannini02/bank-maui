@@ -4,7 +4,7 @@
              x:Class="FinecoBankMobile.View.OperationsPage"
              Shell.FlyoutBehavior="Disabled"
              Title="All Operations"
-             Shell.BackgroundColor="Orange">
+             Shell.BackgroundColor="#415868">
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
     </Shell.BackButtonBehavior>
@@ -28,7 +28,7 @@
                         MaximumDate="12/31/2023"
                         Date="10/02/2023"/>
         </HorizontalStackLayout>
-        <Frame BorderColor="MediumPurple" Margin="15" HeightRequest="500">
+        <Frame BorderColor="#415868" Margin="15" HeightRequest="500">
             <TableView HeightRequest="600" VerticalOptions="Start">
             <TableSection>
                 <TextCell Text="Operation1"/>

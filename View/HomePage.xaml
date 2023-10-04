@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinecoBankMobile.View.HomePage"
-             Shell.BackgroundColor="Orange"
+             Shell.BackgroundColor="#415868"
              Shell.FlyoutBehavior="Flyout"
              Title="HomePage">
     <Shell.BackButtonBehavior>
@@ -15,7 +15,7 @@
             HeightRequest="220">
             <Frame.Background>
                 <LinearGradientBrush EndPoint="1,1">
-                    <GradientStop Color="MediumPurple"
+                    <GradientStop Color="#415868"
                                   Offset="0.0"/>
                     <GradientStop Color="CornflowerBlue"
                                   Offset="1.1"/>
@@ -39,10 +39,10 @@
         <HorizontalStackLayout Spacing="20">
             <Button BackgroundColor="White"
                     WidthRequest="150"
-                    BorderColor="MediumPurple"
+                    BorderColor="CornflowerBlue"
                     BorderWidth="2"
                     Text="SIM Recharge"
-                    TextColor="MediumPurple"
+                    TextColor="#415868"
                     FontFamily="Montserrat"
                     CornerRadius="30"
                     Clicked="SIMRechargeButton_Clicked">
@@ -55,10 +55,10 @@
             </Button>
             <Button BackgroundColor="White"
                     WidthRequest="150"
-                    BorderColor="MediumPurple"
+                    BorderColor="CornflowerBlue"
                     BorderWidth="2"
                     Text="Transfer"
-                    TextColor="MediumPurple"
+                    TextColor="#415868"
                     FontFamily="Montserrat"
                     CornerRadius="30"
                     Clicked="TransferButton_Clicked">
@@ -75,7 +75,7 @@
                 Last Operations
             </Label>
             
-            <Frame BorderColor="MediumPurple" Margin="10">
+            <Frame BorderColor="CornflowerBlue" Margin="10">
                 <TableView HeightRequest="230" Margin="-14">
                     <TableSection>
                         <TextCell Text="Operation1"/>
@@ -87,7 +87,7 @@
                 </TableView>
             </Frame>
 
-            <Button BackgroundColor="MediumPurple" CornerRadius="30" Text="View All" Clicked="ViewAllButton_Tapped" Margin="10" WidthRequest="350" FontFamily="Montserrat"/>
+            <Button BackgroundColor="CornflowerBlue" CornerRadius="30" Text="View All" Clicked="ViewAllButton_Tapped" Margin="10" WidthRequest="350" FontFamily="Montserrat"/>
 
         </VerticalStackLayout>
     </VerticalStackLayout>

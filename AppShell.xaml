@@ -8,15 +8,16 @@
     <FlyoutItem>
         <ShellContent FlyoutItemIsVisible="False" ContentTemplate="{DataTemplate local:LoginPage}"/>
     </FlyoutItem>
-    <TabBar>
-        <Tab Title="HomePage">
-            <ShellContent FlyoutItemIsVisible="True" ContentTemplate="{DataTemplate local:HomePage}" Route="HomePage"/>
-        </Tab>
-        <Tab Title="Operations">
-            <ShellContent ContentTemplate="{DataTemplate local:OperationsPage}" Route="OperationsPage"/>
-        </Tab>
-        <Tab>
-            <ShellContent ContentTemplate="{DataTemplate local:RechargePage}" Route="RechargePage"/>
-        </Tab>
-    </TabBar>
+    <FlyoutItem>
+        <ShellContent FlyoutItemIsVisible="True" ContentTemplate="{DataTemplate local:HomePage}" Route="HomePage"/>
+    </FlyoutItem>
+    <FlyoutItem>
+        <ShellContent ContentTemplate="{DataTemplate local:OperationsPage}" Route="OperationsPage"/>
+    </FlyoutItem>
+    <FlyoutItem>
+        <ShellContent ContentTemplate="{DataTemplate local:RechargePage}" Route="RechargePage"/>
+    </FlyoutItem>
+    <FlyoutItem>
+        <ShellContent ContentTemplate="{DataTemplate local:DetailPage}" Route="DetailPage"/>
+    </FlyoutItem>
 </Shell>

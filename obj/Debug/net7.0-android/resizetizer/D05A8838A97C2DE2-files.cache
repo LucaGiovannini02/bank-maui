@@ -23,6 +23,8 @@ obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background.xml
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\icon_background_round.xml
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo.xml
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\logo_round.xml
+obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\oasibank_logo.xml
+obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\oasibank_logo_round.xml
 obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\appicon.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\appicon_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\appicon_foreground.png
@@ -32,6 +34,9 @@ obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\icon_background_foreground.pn
 obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\logo.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\logo_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\logo_foreground.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\oasibank_logo.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\oasibank_logo_background.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-hdpi\oasibank_logo_foreground.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\appicon.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\appicon_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\appicon_foreground.png
@@ -41,6 +46,9 @@ obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\icon_background_foreground.pn
 obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\logo.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\logo_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\logo_foreground.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\oasibank_logo.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\oasibank_logo_background.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-mdpi\oasibank_logo_foreground.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\appicon_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\appicon_foreground.png
@@ -50,6 +58,9 @@ obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\icon_background_foreground.p
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\logo.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\logo_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\logo_foreground.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\oasibank_logo.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\oasibank_logo_background.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xhdpi\oasibank_logo_foreground.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\appicon_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\appicon_foreground.png
@@ -59,6 +70,9 @@ obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\icon_background_foreground.
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\logo.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\logo_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\logo_foreground.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\oasibank_logo.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\oasibank_logo_background.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xxhdpi\oasibank_logo_foreground.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\appicon_foreground.png
@@ -68,3 +82,6 @@ obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\icon_background_foreground
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\logo.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\logo_background.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\logo_foreground.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\oasibank_logo.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\oasibank_logo_background.png
+obj\Debug\net7.0-android\resizetizer\r\mipmap-xxxhdpi\oasibank_logo_foreground.png

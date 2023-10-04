@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FinecoBankMobile.View.TransferPage"
              Title="Transfer"
-             Shell.BackgroundColor="Orange"
+             Shell.BackgroundColor="#415868"
              Shell.FlyoutBehavior="Flyout">
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsVisible="False" IsEnabled="False"/>
     </Shell.BackButtonBehavior>
-    <Frame HeightRequest="450" Margin="20" CornerRadius="20" BorderColor="Orange">
-        <VerticalStackLayout VerticalOptions="Start" Spacing="10">
+    <Frame HeightRequest="450" Margin="20" CornerRadius="20" BorderColor="#415868">
+        <VerticalStackLayout VerticalOptions="Start" Spacing="10" HeightRequest="450">
 
-            <Frame BackgroundColor="MediumPurple"
+            <Frame BackgroundColor="CornflowerBlue"
                WidthRequest="310"
                Padding="10"
                Margin="10"
@@ -31,7 +31,7 @@
             <Entry Placeholder="Amount (€)" FontFamily="Montserrat"/>
 
             <Button Text="Transfer your money"
-                BackgroundColor="MediumPurple"
+                BackgroundColor="CornflowerBlue"
                 CornerRadius="30"
                 FontFamily="Montserrat"
                 FontSize="15"

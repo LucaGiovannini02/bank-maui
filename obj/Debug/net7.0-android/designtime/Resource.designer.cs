@@ -23953,6 +23953,18 @@ namespace FinecoBankMobile
 			// aapt resource value: 0x7F0D000B
 			public const int logo_round = 2131558411;
 			
+			// aapt resource value: 0x7F0D000C
+			public const int oasibank_logo = 2131558412;
+			
+			// aapt resource value: 0x7F0D000D
+			public const int oasibank_logo_background = 2131558413;
+			
+			// aapt resource value: 0x7F0D000E
+			public const int oasibank_logo_foreground = 2131558414;
+			
+			// aapt resource value: 0x7F0D000F
+			public const int oasibank_logo_round = 2131558415;
+			
 			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

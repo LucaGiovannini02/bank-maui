@@ -11564,6 +11564,10 @@ public final class R {
     public static final int logo_background=0x7f0d0009;
     public static final int logo_foreground=0x7f0d000a;
     public static final int logo_round=0x7f0d000b;
+    public static final int oasibank_logo=0x7f0d000c;
+    public static final int oasibank_logo_background=0x7f0d000d;
+    public static final int oasibank_logo_foreground=0x7f0d000e;
+    public static final int oasibank_logo_round=0x7f0d000f;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0e0000;

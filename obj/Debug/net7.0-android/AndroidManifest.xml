@@ -5,10 +5,10 @@
     Changes to this file may cause incorrect behavior and will be lost if
     the contents are regenerated.
     -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" package="com.companyname.finecobankmobile" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.finecobankmobile" android:versionCode="1" android:versionName="1.0">
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:allowBackup="true" android:supportsRtl="true" android:icon="@mipmap/logo" android:name="crc6487a800e91582cabc.MainApplication" android:roundIcon="@mipmap/logo" android:label="FinecoBankMobile" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:allowBackup="true" android:supportsRtl="true" android:label="FinecoBankMobile" android:icon="@mipmap/logo" android:name="crc6487a800e91582cabc.MainApplication" android:roundIcon="@mipmap/logo" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:theme="@style/Maui.SplashTheme" android:name="crc6487a800e91582cabc.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
