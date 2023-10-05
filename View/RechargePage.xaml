@@ -8,7 +8,16 @@
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsVisible="False" IsEnabled="False"/>
     </Shell.BackButtonBehavior>
-    <Frame HeightRequest="450" Margin="20" CornerRadius="20" BorderColor="#415868">
+    <Frame HeightRequest="800" WidthRequest="400">
+        <Frame.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#415868"
+                                  Offset="0.0"/>
+                <GradientStop Color="CornflowerBlue"
+                                  Offset="1.1"/>
+            </LinearGradientBrush>
+        </Frame.Background>
+        <Frame HeightRequest="450" CornerRadius="20" BorderColor="White">
         <VerticalStackLayout VerticalOptions="Start" Spacing="10" HeightRequest="450">
 
             <Frame BackgroundColor="CornflowerBlue"
@@ -62,4 +71,6 @@
             </Button>
         </VerticalStackLayout>
     </Frame>
+    </Frame>
+    
 </ContentPage>

@@ -9,21 +9,31 @@
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
     </Shell.BackButtonBehavior>
-    <Frame BorderColor="#415868" CornerRadius="20" WidthRequest="350" HeightRequest="600" VerticalOptions="Start" Margin="25">
-        <VerticalStackLayout Spacing="30">
-            <Label FontSize="32" FontAttributes="Bold" FontFamily="Montserrat">Operation's details</Label>
-            <HorizontalStackLayout WidthRequest="300" Spacing="20">
-                <Label FontSize="26" FontFamily="Montserrat">Amount:</Label>
-                <Label FontSize="26" FontFamily="Montserrat">€€€</Label>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout WidthRequest="300" Spacing="20">
-                <Label FontSize="26" FontFamily="Montserrat">Date:</Label>
-                <Label FontSize="26" FontFamily="Montserrat">dd/mm/yyyy</Label>
-            </HorizontalStackLayout>
-            <HorizontalStackLayout WidthRequest="300" HeightRequest="100" Spacing="20">
-                <Label FontSize="26" FontFamily="Montserrat">IBAN:</Label>
-                <Label FontSize="26" FontFamily="Montserrat" WidthRequest="250">AL472121100900000002356987411</Label>
-            </HorizontalStackLayout>
-        </VerticalStackLayout>
+    <Frame HeightRequest="800" WidthRequest="400">
+        <Frame.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#415868"
+                                  Offset="0.0"/>
+                <GradientStop Color="CornflowerBlue"
+                                  Offset="1.1"/>
+            </LinearGradientBrush>
+        </Frame.Background>
+        <Frame BorderColor="White" CornerRadius="20" WidthRequest="350" HeightRequest="600" VerticalOptions="Start" Margin="25">
+            <VerticalStackLayout Spacing="30">
+                <Label FontSize="32" FontAttributes="Bold" FontFamily="Montserrat">Operation's details</Label>
+                <HorizontalStackLayout WidthRequest="300" Spacing="20">
+                    <Label FontSize="26" FontFamily="Montserrat">Amount:</Label>
+                    <Label FontSize="26" FontFamily="Montserrat">€€€</Label>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout WidthRequest="300" Spacing="20">
+                    <Label FontSize="26" FontFamily="Montserrat">Date:</Label>
+                    <Label FontSize="26" FontFamily="Montserrat">dd/mm/yyyy</Label>
+                </HorizontalStackLayout>
+                <HorizontalStackLayout WidthRequest="300" HeightRequest="100" Spacing="20">
+                    <Label FontSize="26" FontFamily="Montserrat">IBAN:</Label>
+                    <Label FontSize="26" FontFamily="Montserrat" WidthRequest="250">AL472121100900000002356987411</Label>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
     </Frame>
 </ContentPage>

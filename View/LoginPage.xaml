@@ -13,8 +13,16 @@
     <Page.Behaviors>
         <mct:StatusBarBehavior StatusBarColor="#415868"/>
     </Page.Behaviors>
-    <Frame BackgroundColor="White" CornerRadius="0">
-        <Frame BackgroundColor="White" HeightRequest="500" BorderColor="CornflowerBlue">
+    <Frame CornerRadius="0" WidthRequest="400" HeightRequest="800">
+        <Frame.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#415868"
+                                  Offset="0.0"/>
+                <GradientStop Color="CornflowerBlue"
+                                  Offset="1.1"/>
+            </LinearGradientBrush>
+        </Frame.Background>
+        <Frame BackgroundColor="White" HeightRequest="500" BorderColor="White">
             <VerticalStackLayout
             Spacing="10"
             Padding="30,0"
