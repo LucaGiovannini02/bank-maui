@@ -8,7 +8,7 @@
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsVisible="False" IsEnabled="False"/>
     </Shell.BackButtonBehavior>
-    <Frame HeightRequest="800" WidthRequest="400">
+    <Frame HeightRequest="800" WidthRequest="420">
         <Frame.Background>
             <LinearGradientBrush EndPoint="0,1">
                 <GradientStop Color="#415868"
@@ -34,9 +34,9 @@
                 </Label>
             </Frame>
 
-            <Entry Placeholder="Phone Number" FontFamily="Montserrat"/>
+            <Entry Keyboard="Numeric" Placeholder="Phone Number" FontFamily="Montserrat"/>
 
-            <Entry Placeholder="Amount (€)" FontFamily="Montserrat"/>
+            <Entry Keyboard="Numeric" Placeholder="Amount (€)" FontFamily="Montserrat"/>
 
             <Picker x:Name="picker"
                     Title="Select Operator..."

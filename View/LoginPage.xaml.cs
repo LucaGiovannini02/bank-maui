@@ -10,6 +10,10 @@ public partial class LoginPage : ContentPage
     {
         InitializeComponent();
     }
+    private void Animate(object sender, EventArgs e)
+    {
+        Lottie.IsAnimationPlaying = true;
+    }
 
     public class UserCredentials
     {
@@ -53,7 +57,6 @@ public partial class LoginPage : ContentPage
             else
             {
                 await DisplayAlert("FAILED", "Failed Login Attempt. Check your credentials and try again", "OK");
-                EmailEntry.Text = "";
                 PasswordEntry.Text = "";
             }
     }

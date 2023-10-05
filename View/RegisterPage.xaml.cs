@@ -12,8 +12,8 @@ public partial class RegisterPage : ContentPage
         await DisplayAlert("Registered!", "Registrazione effettuata con successo!", "OK");
         await Shell.Current.GoToAsync(nameof(LoginPage));
     }
-    private async void SignIn_tapped(object sender, EventArgs e)
+    private void SignIn_Tapped(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(LoginPage));
+        Shell.Current.SendBackButtonPressed();
     }
 }

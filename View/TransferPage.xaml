@@ -18,28 +18,28 @@
             </LinearGradientBrush>
         </Frame.Background>
         <Frame HeightRequest="450" CornerRadius="20" BorderColor="White">
-        <VerticalStackLayout VerticalOptions="Start" Spacing="10" HeightRequest="450">
+            <VerticalStackLayout VerticalOptions="Start" Spacing="10" HeightRequest="450">
 
-            <Frame BackgroundColor="CornflowerBlue"
+                <Frame BackgroundColor="CornflowerBlue"
                WidthRequest="310"
                Padding="10"
                Margin="10"
                Opacity="0.8"
                CornerRadius="10">
-                <Label HorizontalOptions="Center"
+                    <Label HorizontalOptions="Center"
                    FontSize="25"
                    FontAttributes="Bold"
                    FontFamily="Montserrat"
                    TextColor="White">
-                    Execute Transfer
-                </Label>
-            </Frame>
+                        Execute Transfer
+                    </Label>
+                </Frame>
 
-            <Entry Placeholder="Destination IBAN" FontFamily="Montserrat"/>
+                <Entry Placeholder="Destination IBAN" FontFamily="Montserrat" MaxLength="28"/>
 
-            <Entry Placeholder="Amount (€)" FontFamily="Montserrat"/>
+                <Entry Keyboard="Numeric" Placeholder="Amount (€)" FontFamily="Montserrat"/>
 
-            <Button Text="Transfer your money"
+                <Button Text="Transfer your money"
                 BackgroundColor="CornflowerBlue"
                 CornerRadius="30"
                 FontFamily="Montserrat"
@@ -48,15 +48,14 @@
                 Margin="10"
                 Clicked="Transfer_Clicked">
 
-                <Button.Shadow>
-                    <Shadow Brush="Black"
+                    <Button.Shadow>
+                        <Shadow Brush="Black"
                         Offset="0, 20"
                         Radius="40"
                         Opacity="0.4" />
-                </Button.Shadow>
-            </Button>
-        </VerticalStackLayout>
+                    </Button.Shadow>
+                </Button>
+            </VerticalStackLayout>
+        </Frame>
     </Frame>
-    </Frame>
-    
 </ContentPage>

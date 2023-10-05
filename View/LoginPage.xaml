@@ -27,11 +27,11 @@
             Spacing="10"
             Padding="30,0"
             VerticalOptions="Start" HeightRequest="500">
-                <Image Source="it_banking_3.gif" IsAnimationPlaying="True"/>
+                <Image Source="it_banking_3.gif" Loaded="Animate" x:Name="Lottie"/>
 
                 <Label HorizontalOptions="Start" FontSize="32" TextColor="#415868" FontAttributes="Bold" FontFamily="Montserrat">Login</Label>
 
-                <Entry Placeholder="Email Address" FontSize="18" FontFamily="Montserrat" x:Name="EmailEntry"/>
+                <Entry Keyboard="Email" Placeholder="Email Address" FontSize="18" FontFamily="Montserrat" x:Name="EmailEntry"/>
 
                 <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat" x:Name="PasswordEntry" IsPassword="True"/>
 

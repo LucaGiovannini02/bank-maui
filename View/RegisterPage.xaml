@@ -4,16 +4,24 @@
              x:Class="FinecoBankMobile.View.RegisterPage"
              Shell.FlyoutBehavior="Disabled"
              Shell.NavBarIsVisible="True"
-             Shell.BackgroundColor="Orange"
+             Shell.BackgroundColor="#415868"
              Title="Registration">
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
     </Shell.BackButtonBehavior>
-    <Frame BackgroundColor="White">
-        <Frame BackgroundColor="White" CornerRadius="20" HeightRequest="450" BorderColor="Orange">
+    <Frame WidthRequest="400" HeightRequest="800">
+        <Frame.Background>
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#415868"
+                                  Offset="0.0"/>
+                <GradientStop Color="CornflowerBlue"
+                                  Offset="1.1"/>
+            </LinearGradientBrush>
+        </Frame.Background>
+        <Frame BackgroundColor="White" CornerRadius="20" HeightRequest="450" BorderColor="White">
             <VerticalStackLayout
                 Padding="20">
-                <Label HorizontalOptions="Start" FontSize="32" TextColor="Orange" FontAttributes="Bold" FontFamily="Montserrat">
+                <Label HorizontalOptions="Start" FontSize="32" TextColor="#415868" FontAttributes="Bold" FontFamily="Montserrat">
                     Registration
                 </Label>
 
@@ -21,18 +29,18 @@
 
                 <Entry Placeholder="Last Name" FontSize="18" FontFamily="Montserrat"/>
 
-                <Entry Placeholder="Email Address" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Keyboard="Email" Placeholder="Email Address" FontSize="18" FontFamily="Montserrat"/>
 
-                <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat" IsPassword="True"/>
 
-                <Entry Placeholder="Confirm Password" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Placeholder="Confirm Password" FontSize="18" FontFamily="Montserrat" IsPassword="True"/>
 
-                <Button Margin="20" CornerRadius="30" FontSize="20" Text="Submit" BackgroundColor="MediumPurple" Clicked="Submit_Clicked" FontFamily="Montserrat"/>
+                <Button Margin="20" CornerRadius="30" FontSize="20" Text="Submit" BackgroundColor="CornflowerBlue" Clicked="Submit_Clicked" FontFamily="Montserrat"/>
 
                 <Label HorizontalOptions="Center" TextDecorations="Underline" TextColor="Blue" FontFamily="Montserrat">
                     Already have an account? Sign in
                     <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="SignIn_tapped"/>
+                        <TapGestureRecognizer Tapped="SignIn_Tapped"/>
                     </Label.GestureRecognizers>
                 </Label>
             </VerticalStackLayout>
