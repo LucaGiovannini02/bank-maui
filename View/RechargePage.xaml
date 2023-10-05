@@ -29,6 +29,21 @@
 
             <Entry Placeholder="Amount (€)" FontFamily="Montserrat"/>
 
+            <Picker x:Name="picker"
+                    Title="Select Operator..."
+                    Margin="10">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Vodafone</x:String>
+                        <x:String>Iliad</x:String>
+                        <x:String>Tim</x:String>
+                        <x:String>Windtre</x:String>
+                        <x:String>.Ho</x:String>
+                        <x:String>PosteMobile</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
             <Button Text="Recharge your SIM"
                 BackgroundColor="CornflowerBlue"
                 CornerRadius="30"
