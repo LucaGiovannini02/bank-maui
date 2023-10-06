@@ -10,6 +10,6 @@ public partial class TransferPage : ContentPage
 	private async void Transfer_Clicked(object sender, EventArgs e)
 	{
 		await DisplayAlert("Success!", "Money have been transfered correctly", "OK");
-		await Shell.Current.GoToAsync(nameof(HomePage));
+		Shell.Current.SendBackButtonPressed();
 	}
 }

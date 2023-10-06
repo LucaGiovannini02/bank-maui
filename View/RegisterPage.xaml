@@ -25,15 +25,15 @@
                     Registration
                 </Label>
 
-                <Entry Placeholder="First Name" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Placeholder="First Name" FontSize="18" FontFamily="Montserrat" x:Name="firstName"/>
 
-                <Entry Placeholder="Last Name" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Placeholder="Last Name" FontSize="18" FontFamily="Montserrat" x:Name="lastName"/>
 
-                <Entry Keyboard="Email" Placeholder="Email Address" FontSize="18" FontFamily="Montserrat"/>
+                <Entry Keyboard="Email" Placeholder="Email Address" FontSize="18" FontFamily="Montserrat" x:Name="emailAddress"/>
 
-                <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat" IsPassword="True"/>
+                <Entry Placeholder="Password" FontSize="18" FontFamily="Montserrat" IsPassword="True" x:Name="secretPassword"/>
 
-                <Entry Placeholder="Confirm Password" FontSize="18" FontFamily="Montserrat" IsPassword="True"/>
+                <Entry Placeholder="Confirm Password" FontSize="18" FontFamily="Montserrat" IsPassword="True" x:Name="confirmSecretPassword"/>
 
                 <Button Margin="20" CornerRadius="30" FontSize="20" Text="Submit" BackgroundColor="CornflowerBlue" Clicked="Submit_Clicked" FontFamily="Montserrat"/>
 

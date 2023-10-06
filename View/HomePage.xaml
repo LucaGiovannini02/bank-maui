@@ -9,34 +9,33 @@
         <BackButtonBehavior IsEnabled="False" IsVisible="False"/>
     </Shell.BackButtonBehavior>
     <VerticalStackLayout Margin="25" Spacing="10">
-        <Frame
-            CornerRadius="20"
-            WidthRequest="350"
-            HeightRequest="220">
-            <Frame.Background>
-                <LinearGradientBrush EndPoint="1,1">
+        <Border StrokeShape="RoundRectangle 20, 20, 20, 20"
+                WidthRequest="350"
+                HeightRequest="220">
+            <Border.Shadow>
+                <Shadow Brush="Black"
+                        Offset="0,20"
+                        Radius="40"
+                        Opacity="0.6"/>
+            </Border.Shadow>
+            <Border.Background>
+                <LinearGradientBrush>
                     <GradientStop Color="#415868"
-                                  Offset="0.0"/>
+				                  Offset="0.0" />
                     <GradientStop Color="CornflowerBlue"
-                                  Offset="1.1"/>
+				                  Offset="1.1" />
                 </LinearGradientBrush>
-            </Frame.Background>
-            <VerticalStackLayout Spacing="20">
+            </Border.Background>
+            <VerticalStackLayout Spacing="20" Margin="20">
                 <Label TextColor="White" FontSize="25" FontFamily="Montserrat">Luca Giovannini</Label>
                 <!-- dataBinding (con "Loaded") per nome utente -->
                 <Label TextColor="White" FontSize="30" FontFamily="Montserrat">5432,10€</Label>
                 <!-- dataBinding per balance -->
                 <Label TextColor="White" FontSize="19" FontFamily="Montserrat">AL472121100900000002356987411</Label>
                 <!-- dataBinding per IBAN -->
-                <VerticalStackLayout.Shadow>
-                    <Shadow Brush="Black"
-                            Offset="0,20"
-                            Radius="40"
-                            Opacity="0.6"/>
-                </VerticalStackLayout.Shadow>
             </VerticalStackLayout>
-        </Frame>
-        <HorizontalStackLayout Spacing="20">
+        </Border>
+        <HorizontalStackLayout Spacing="25">
             <Button BackgroundColor="White"
                     WidthRequest="150"
                     BorderColor="CornflowerBlue"

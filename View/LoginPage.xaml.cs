@@ -17,15 +17,22 @@ public partial class LoginPage : ContentPage
 
     public class UserCredentials
     {
+        public UserCredentials(string email, string password)
+        {
+            Email = email;
+            Password = password;
+        }
         public string Email { get; set; }
         public string Password { get; set; }
+
     }
 
-    static List<UserCredentials> userCredentialsList = new List<UserCredentials>
+    public static List<UserCredentials> userCredentialsList = new List<UserCredentials>
     {
-        new UserCredentials{Email = "luca.giovannini@gmail.com", Password = "Tailwind1234" },
-        new UserCredentials{Email = "niccolo.bano@gmail.com", Password = "Quarantacinque45" },
-        new UserCredentials{Email = "filiberto.toniolo@gmail.com", Password = "Sinistro5678" }
+        new UserCredentials("luca.giovannini@gmail.com", "Tailwind1234"),
+        new UserCredentials("niccolo.bano@gmail.com", "Quarantacinque45"),
+        new UserCredentials("filiberto.toniolo@gmail.com", "Sinistro5678"),
+        new UserCredentials("chiara.negrini@gmail.com", "ITS_2023")
     };
 
     public bool CheckCredentials(string givenEmail, string givenPassword)

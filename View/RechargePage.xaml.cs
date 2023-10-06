@@ -10,6 +10,6 @@ public partial class RechargePage : ContentPage
 	private async void Recharge_Clicked(object sender, EventArgs e)
 	{
 		await DisplayAlert("Success!", "Operation completed!", "OK");
-		await Shell.Current.GoToAsync(nameof(HomePage));
+		Shell.Current.SendBackButtonPressed();
 	}
 }
